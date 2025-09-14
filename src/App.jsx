@@ -1,34 +1,26 @@
+import { Routes, Route, Link } from "react-router";
+import HomePage from "./pages/Homepage";
+import Dashboard from "./pages/Dashboard";
+import VenueInfoPage from "./pages/VenueInfoPage";
+import Navbar from "./components/NavBar";
+
 export default function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        fontFamily: "sans-serif",
-        background: "#f9fafb",
-        color: "#111",
-        textAlign: "center",
-        padding: "2rem",
-      }}
-    >
-      <h1
-        style={{
-          fontSize: "2.5rem",
-          marginBottom: "0.5rem",
-          fontWeight: 600,
-        }}
-      >
-        Welcome to{" "}
-        <span style={{ color: "#2563eb" }}>midterm-project</span> 🚀
-      </h1>
-      <p style={{ fontSize: "1.1rem", color: "#555", marginBottom: "2rem" }}>
-        Your project is ready. Start building amazing things!
-      </p>
-      
-      
-    </div>
+    <>
+      <div className="">
+        <nav>
+          <Link to="/">Home</Link> | {"  "}
+          <Link to="/dashboard/my-reservations">Dashboard</Link> | {"  "}
+          <Link to="/venue-info">Venue Info</Link> | {"  "}
+        </nav>
+      </div>
+
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/dashboard/my-reservations" element={<Dashboard />} />
+        <Route path="/venue-info" element={<VenueInfoPage />} />
+      </Routes>
+    </>
   );
 }
