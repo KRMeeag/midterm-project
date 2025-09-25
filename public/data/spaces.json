@@ -1,0 +1,385 @@
+[
+  {
+    "id": 1,
+    "name": "WeWork - Uptown Bonifacio Tower Three",
+    "location": "9th and 10th Floors, Uptown Bonifacio Tower Three, 36th Street Corner 11th Avenue, Bonifacio Global City, Fort Bonifacio, Taguig City, Metro Manila, Philippines",
+    "city": "Taguig City",
+    "price": 800.00,
+    "number": "09171234567",
+    "email": "contact@wework.com",
+    "main_image": "https://coworker.imgix.net/photos/philippines/manila/wework-uptown-bonifacio-tower-three/main.jpg?w=1200&h=630&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle",
+    "images": [
+      "https://cdn-images.wework.com/images/98CE2944-5835-11EC-B8C8-0E6A5DC689CD/98ce2944-5835-11ec-b8c8-0e6a5dc689cd_1.jpg",
+      "https://cdn-images.wework.com/images/98B3A90C-5835-11EC-B8C7-0E6A5DC689CD/98b3a90c-5835-11ec-b8c7-0e6a5dc689cd_0.jpg",
+      "https://coworker.imgix.net/photos/philippines/manila/wework-uptown-bonifacio-tower-three/4.jpg?w=800&h=0&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle"
+    ],
+    "description": "Large international coworking location in Uptown BGC offering flexible private offices, meeting rooms, lounges and community programming — ideal for teams and freelancers.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Meeting Rooms & Phone Booths",
+      "On-site Community Team",
+      "Business-class Printers",
+      "Event Programming"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 2,
+    "name": "KMC Workspaces - One Ayala (Makati)",
+    "location": "4th Floor, One Ayala Tower, No. 1 Ayala Avenue, Ayala Center, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 650,
+    "number": "09181234567",
+    "email": "info@kmc.solutions",
+    "main_image": "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2Fea1fe58d444b178cd94f8332f7d9aa1798e75495-4620x2599.webp&w=3840&q=75",
+    "images": [
+      "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2Fea1fe58d444b178cd94f8332f7d9aa1798e75495-4620x2599.webp&w=3840&q=75",
+      "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2F55d7121be9ad7b391c4a9caf27ddefa585313ca9-1920x1280.webp&w=3840&q=75",
+      "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2F67b369ca7f6914923ef604699c4eeb3a7b1ca19e-1920x1280.webp&w=3840&q=75",
+      "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2Fedfb7260df98c497f14cd348a1e258376a5981a5-2755x1836.webp&w=3840&q=75",
+      "https://kmc.solutions/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1htmbetr%2Fproduction%2Ffa2528dcfa2d3fb6138ea07ef4055c608fc0b7e6-1920x1280.webp&w=3840&q=75"
+    ],
+    "description": "KMC offers professionally furnished pro-working areas and private offices in One Ayala — modern meeting rooms and flexible desk options tailored to startups and corporate teams.",
+    "amenities": [
+      "Fiber Internet",
+      "Meeting Rooms",
+      "Reception & Mail Handling",
+      "Pantry / Refreshments",
+      "Printing Services"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 3,
+    "name": "Acceler8 by UnionSPACE - Rockwell",
+    "location": "5th Floor, Phinma Plaza, 39 Plaza Drive, Rockwell Center, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 450,
+    "number": "09192223344",
+    "email": "hello@acceler8.ph",
+    "main_image": "https://scontent.fcgy1-3.fna.fbcdn.net/v/t1.6435-9/51469808_2236397796411532_2756892494590377984_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGgSllRT3uSrJyJa1uxEFOya811yXYccQ1rzXXJdhxxDfQgCAipNsGijq7ExHMkh2jNRDncoFzQ460EZCkVKcp0&_nc_ohc=lUI2Ixkv4ZMQ7kNvwHpu0Lm&_nc_oc=AdmmhDaCHqAo7ZLGSZM2WGRo6nfHl6krx4415-O7k96lhKVRcs4-_wmZV_XA4aS44NcqCRYRUuekfWlu14nLW0P5&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&_nc_gid=58DYb1NSYgARGkm68uv-zw&oh=00_Afasu3j7xAnVP1cifKjFH4_RdZsEYizFJi4k_cwUMTACvw&oe=68F86828",
+    "images": [
+      "https://scontent.fcgy1-3.fna.fbcdn.net/v/t1.6435-9/51469808_2236397796411532_2756892494590377984_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGgSllRT3uSrJyJa1uxEFOya811yXYccQ1rzXXJdhxxDfQgCAipNsGijq7ExHMkh2jNRDncoFzQ460EZCkVKcp0&_nc_ohc=lUI2Ixkv4ZMQ7kNvwHpu0Lm&_nc_oc=AdmmhDaCHqAo7ZLGSZM2WGRo6nfHl6krx4415-O7k96lhKVRcs4-_wmZV_XA4aS44NcqCRYRUuekfWlu14nLW0P5&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&_nc_gid=58DYb1NSYgARGkm68uv-zw&oh=00_Afasu3j7xAnVP1cifKjFH4_RdZsEYizFJi4k_cwUMTACvw&oe=68F86828",
+      "https://scontent.fcgy1-3.fna.fbcdn.net/v/t1.6435-9/51753229_2236397653078213_3997080025185648640_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHngHHLCTxTr1ZHzChcLVlMYlUSCwOy_7liVRILA7L_ubqQyqFrD_Rf8YNeAq_AGptZa6kk6wrBViSFYY1BeyFC&_nc_ohc=itmE2jNqcf8Q7kNvwEt1SXg&_nc_oc=AdlMXfxlUWMSJp7XVHXCSJRN1rzqYpm1B4rtfbALrzTr2V8uG87sXXGjg1I9zTy0DjphAs3bsskoMgrZFF6OVTyw&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&_nc_gid=XAQlHfQjPzWF8td1PRQZJA&oh=00_Afbeo-CLdLXb82oQr9oJhqYEdp33a5PdMCygGt2PlOLHxg&oe=68F84A04",
+      "https://scontent.fmnl13-3.fna.fbcdn.net/v/t1.6435-9/51536158_2236428813075097_3183974228504346624_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF2UmJ2AD8BCclBJzVtYO7sBu6VMnfY1jsG7pUyd9jWOxgGnHAiBhnRFXS8f8JhiPnwFeEsI07cgNQbZzR9DBjT&_nc_ohc=PhQiY6WoDcoQ7kNvwGVT-mt&_nc_oc=AdlxOh-s8bfvXoSRB9b1vKuNBKOn0x6iPSssra8_nUBC4YnmEJiW4MG1oJIY4jYYsVx3WmkdZH4OFL4aN3tN7s1C&_nc_zt=23&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=0FXrj9neVz6ELe0ao3dcjw&oh=00_Afb2DXyYHRnstf6TSekpLxe5ck-URP0CZ_W41H3v5obXeA&oe=68F86307"
+    ],
+    "description": "Acceler8 (UnionSPACE) is a community-driven flexible workspace with hot desks, dedicated desks, private offices and event spaces across Makati — focused on connection and programming.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Dedicated Desks & Hot Desks",
+      "Meeting Rooms",
+      "Event Space",
+      "Community Events"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 4,
+    "name": "A SPACE (Makati)",
+    "location": "110 Legazpi Street, Legazpi Village, Makati City, Metro Manila, Philippines" ,
+    "city": "Makati City",
+    "price": 700,
+    "number": "09203334455",
+    "email": "hello@aspace.com.ph",
+    "main_image": "https://coworker.imgix.net/photos/philippines/manila/aspace-greenbelt/4.jpg?w=800&h=0&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle",
+    "images": [
+      "https://coworker.imgix.net/photos/philippines/manila/aspace-greenbelt/4.jpg?w=800&h=0&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle",
+      "https://coworker.imgix.net/photos/philippines/manila/aspace-greenbelt/1.jpg?w=800&h=0&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle",
+      "https://coworker.imgix.net/photos/philippines/manila/aspace-greenbelt/2.jpg?w=800&h=0&q=90&auto=format,compress&fit=crop&mark=/template/img/wm_icon.png&markscale=5&markalign=center,middle"
+    ],
+    "description": "A SPACE is a multi-level creative coworking venue with meeting rooms, event venues, café and gallery spaces — suited for creatives, makers, and teams that need flexible, design-forward space.",
+    "amenities": [
+      "Event & Gallery Space",
+      "Private Offices & Meeting Rooms",
+      "Cafe / Kitchen",
+      "Wi-Fi",
+      "On-site Support"
+    ],
+    "hours": "8:00 AM – 10:00 PM",
+    "time_slots": ["Full Day Pass", "Half Day (9am-1pm)", "Half Day (1pm-5pm)"],
+    "reservation_type": "By Passes"
+  },
+  {
+    "id": 5,
+    "name": "Common Ground - Rockwell",
+    "location": "21 F Plaza Drive, 8 Rockwell Tower, Hidalgo Drive, Rockwell Center, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 550,
+    "number": "09174445566",
+    "email": "hello@commonground.work",
+    "main_image": "https://www.commonground.work/wp-content/uploads/2022/04/Hot-Desk-1.png",
+    "images": [
+      "https://www.commonground.work/wp-content/uploads/2022/04/Hot-Desk-1.png",
+      "https://qdesq.imagekit.io/img/tr:w-400/image/upload/v1567058973/cxd9p1lk3dugetdqtcds.webp",
+      "https://www.commonground.work/wp-content/uploads/2022/04/Grounds-2.jpeg",
+      "https://www.commonground.work/wp-content/uploads/2022/04/home_video-photo-min.jpg"
+    ],
+    "description": "Common Ground offers modern coworking studios and private offices across Manila with views in key business districts — popular for collaborative teams and freelancers.",
+    "amenities": [
+      "Hot Desks & Dedicated Desks",
+      "Meeting Rooms",
+      "Lounge Areas",
+      "High-speed Internet",
+      "Events & Networking"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 6,
+    "name": "Penbrothers Coworking",
+    "location": "6th Floor, OPL Building, 100 Don Carlos Palanca Street, Legazpi Village, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 850,
+    "number": "09175556677",
+    "email": "info@penbrothers.com",
+    "main_image": "https://penbrothers.com/wp-content/uploads/2024/01/Office-Spaces-at-Penbrothers.webp",
+    "images": [
+      "https://penbrothers.com/wp-content/uploads/2024/01/Office-Spaces-at-Penbrothers.webp",
+      "https://penbrothers.com/wp-content/uploads/2024/01/Coworking-Spaces-at-Penbrothers.webp",
+      "https://penbrothers.com/wp-content/uploads/2024/01/Private-Offices-at-Penbrothers.webp",
+      "https://penbrothers.com/wp-content/uploads/2024/01/Event-Spaces-at-Penbrothers.webp"
+    ],
+    "description": "Penbrothers provides large-capacity coworking and serviced office solutions with dedicated seats, private offices, meeting rooms and enterprise support — popular for remotely-offshoring teams.",
+    "amenities": [
+      "Dedicated Desks & Private Offices",
+      "Meeting Rooms",
+      "Free Coffee & Water",
+      "Printing Services",
+      "Reception & Mail Handling"
+    ],
+    "hours": "8:00 AM – 8:00 PM",
+    "time_slots": ["Full Day Pass", "Half Day Pass"],
+    "reservation_type": "By Passes"
+  },
+  {
+    "id": 7,
+    "name": "The Company - Makati",
+    "location": "11th Floor, Frabelle Business Center, 111 Rada Street, Legazpi Village, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 900,
+    "number": "09176667788",
+    "email": "makati@thecompany.ph",
+    "main_image": "https://thecompany.ph/wp-content/uploads/2025/09/The-Company-Makati-Meeting-Room-1.jpg",
+    "images": [
+      "https://thecompany.ph/wp-content/uploads/2025/09/The-Company-Makati-Meeting-Room-1.jpg",
+      "https://thecompany.ph/wp-content/uploads/2025/09/The-Company-Makati-Meeting-Room-2.jpg"
+    ],
+    "description": "The Company (international coworking brand) offers premium coworking, private offices, event spaces and quiet pods in Makati — designed for professionals and creative teams.",
+    "amenities": [
+      "24/7 Access (membership dependent)",
+      "Meeting Rooms & Event Spaces",
+      "High-speed Internet",
+      "Concierge Services",
+      "Quiet Pods"
+    ],
+    "hours": "Open 24/7",
+    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"],
+    "reservation_type": "By Passes"
+  },
+  {
+    "id": 8,
+    "name": "Warehouse Eight",
+    "location": "Warehouse 8-A, La Fuerza Plaza, 2241 Don Chino Roces Avenue, Makati City, Metro Manila, Philippines",
+    "city": "Makati City",
+    "price": 500,
+    "number": "09178889900",
+    "email": "hello@warehouseeight.com",
+    "main_image": "https://coworker.imgix.net/photos/philippines/manila/warehouse-eight/main-1481516352.jpg",
+    "images": [
+      "https://coworker.imgix.net/photos/philippines/manila/warehouse-eight/main-1481516352.jpg",
+      "https://pbs.twimg.com/media/Cq5-i7YVIAA5c_6.jpg",
+      "https://coworker.imgix.net/photos/philippines/manila/warehouse-eight/13-1580192522.jpg"
+    ],
+    "description": "Warehouse Eight is an industrial-chic coworking space in Makati known for creative events, flexible seating and studios — an option for makers and creative teams.",
+    "amenities": [
+      "Event & Workshop Space",
+      "Hot Desks & Studios",
+      "Community Events",
+      "Wi-Fi",
+      "Pantry"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 9,
+    "name": "Regus Batangas Branch",
+     "location": "Regus Batangas City Center, Batangas City, Batangas, Philippines",
+    "city": "Batangas City",
+    "price": 600,
+    "number": "09179990011",
+    "email": "info@regus.com",
+    "main_image": "https://stayhere.ph/wp-content/uploads/2023/09/1.webp",
+    "images": [
+      "https://stayhere.ph/wp-content/uploads/2023/09/1.webp",
+      "https://assets.iwgplc.com/image/upload/c_fill,f_auto,q_auto,h_432,w_auto,ar_178:100/CentreImagery/1898/1898_5.jpg",
+      "https://assets.iwgplc.com/image/upload/c_fill,f_auto,q_auto,h_432,w_auto,ar_178:100/CentreImagery/1898/1898_8.jpg"
+    ],
+    "description": "Regus provides professionally managed coworking spaces and serviced offices across the Philippines — flexible hourly, daily or monthly options for individuals and teams.",
+    "amenities": [
+      "Hot Desks & Private Offices",
+      "Meeting Rooms",
+      "Reception Services",
+      "Printing",
+      "Flexible Booking"
+    ],
+    "hours": "8:00 AM – 6:00 PM",
+    "time_slots": ["Full Day Pass", "Half Day Pass"],
+    "reservation_type": "By Passes"
+  },
+  {
+    "id": 10,
+    "name": "Tayo Spaces (Katipunan)",
+    "location": "2nd Floor, ATC Center, 148 Katipunan Avenue, Barangay Santo Ignatius, Quezon City, Metro Manila, Philippines",
+    "city": "Quezon City",
+    "price": 350,
+    "number": "09181112222",
+    "email": "tayospaces@gmail.com",
+    "main_image": "https://static1.squarespace.com/static/63ca587849cf0a5ac30c257e/t/66d83f873a97b7117711d7fb/1725448071116/L1000083.jpg",
+    "images": [
+      "https://static1.squarespace.com/static/63ca587849cf0a5ac30c257e/t/66d83f873a97b7117711d7fb/1725448071116/L1000083.jpg",
+      "https://images.squarespace-cdn.com/content/v1/63ca587849cf0a5ac30c257e/0949f28d-9f03-4e09-99f3-fcf0c2e202e6/DSCF9287-HDR.jpg"
+    ],
+    "description": "Tayo Spaces is a community-focused coworking venue near Katipunan geared toward creatives, students and freelancers — offers flexible desks, training rooms and event hosting.",
+    "amenities": [
+      "Hot Desks & Training Rooms",
+      "Event Space",
+      "Wi-Fi",
+      "Pantry",
+      "Community Programs"
+    ],
+    "hours": "8:00 AM – 10:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 11,
+    "name": "Workscape Coworking (General Trias)",
+    "location": "2nd Floor, Unit 8-9, Leodegario Building 2, Brookside Lane, Arnaldo Highway, Barangay San Francisco, General Trias, Cavite, Philippines",
+    "city": "General Trias City",
+    "price": 300,
+    "number": "09183334455",
+    "email": "workscapeph@gmail.com",
+    "main_image": "https://riverpark.ph/wp-content/uploads/2025/05/473029333_122157888038297059_498340763931887303_n-1024x683.jpg.webp",
+    "images": [
+      "https://riverpark.ph/wp-content/uploads/2025/05/473029333_122157888038297059_498340763931887303_n-1024x683.jpg.webp",
+      "https://scontent.fcgy1-2.fna.fbcdn.net/v/t39.30808-6/546224278_122195561834297059_7077807007799780314_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeELF7uxnEojQ0bLr3OmNprYMXHW8r9SXK8xcdbyv1Jcryo_RFEXQvILWE6g0dJQVwV1Pr4I9o3Lfu3Tf7oW4RAZ&_nc_ohc=XYRZl3UaVEwQ7kNvwEA8txv&_nc_oc=AdlCelNtrci05EwqxVk-40oF5jWhQtvl5mU2K4bPVh3veqH0t-myIhd1zuw6Ir_3cQmZzTZpBO8sCUnRCHclwCmP&_nc_zt=23&_nc_ht=scontent.fcgy1-2.fna&_nc_gid=nuNKLQVGpfe1w7q7NhEDmQ&oh=00_Afaa99Ah5_nuzGvdNWbj2gelJ-uJlyI3KIbOj8cGXAsJEQ&oe=68D6C4A4"
+    ],
+    "description": "Local Cavite coworking that provides hot desks, meeting rooms and a community vibe — a convenient option for remote workers in Cavite.",
+    "amenities": [
+      "Hot Desks & Dedicated Desks",
+      "Meeting Rooms",
+      "Wi-Fi",
+      "Pantry",
+      "Community Events"
+    ],
+    "hours": "9:00 AM – 10:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 12,
+    "name": "Upleap Coworking",
+    "location": "Roof Deck, KPSL Building, Brookside Lane, Barangay San Francisco, General Trias, Cavite, Philippines",
+    "city": "General Trias City",
+    "price": 300,
+    "number": "09184445566",
+    "email": "upleapcoworking@gmail.com",
+    "main_image": "https://cdn.prod.website-files.com/688ae45340b09c2a2414b42d/688ae45340b09c2a2414b5ac_Header%20Image.avif",
+    "images": [
+      "https://cdn.prod.website-files.com/688ae45340b09c2a2414b42d/688ae45340b09c2a2414b5ac_Header%20Image.avif",
+      "https://cdn.prod.website-files.com/688ae45340b09c2a2414b42d/688ae45340b09c2a2414b5a1_Gallery%207.webp"
+    ],
+    "description": "Upleap is a community-oriented coworking spot in Cavite offering flexible desks, private meeting spaces and occasional community programming.",
+    "amenities": ["Hot Desks", "Meeting Rooms", "Wi-Fi", "Pantry", "Events"],
+    "hours": "9:00 AM – 10:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 13,
+    "name": "ToDo Coworking Space",
+    "location": "3rd Floor, Arenal Building, Brgy. 1, Lucena City, Quezon, Philippines",
+    "city": "Lucena City",
+    "price": 250,
+    "number": "09185556677",
+    "email": "todocoworking@gmail.com",
+    "main_image": "https://s3.ap-south-1.amazonaws.com/worker-app/details_images/1867/1867_817050.webp",
+    "images": [
+      "https://s3.ap-south-1.amazonaws.com/worker-app/details_images/1867/1867_817050.webp",
+      "https://s3.ap-south-1.amazonaws.com/worker-app/details_images/1867/1867_210056.webp",
+      "https://s3.ap-south-1.amazonaws.com/worker-app/details_images/1867/1867_252501.webp"
+    ],
+    "description": "ToDo Coworking Space in Lucena provides a focused and affordable workspace for freelancers, students and small teams — offering desks, standing desks and event facilities.",
+    "amenities": [
+      "Wi-Fi",
+      "Standing Desks",
+      "Event Space",
+      "Pantry",
+      "Printing"
+    ],
+    "hours": "9:00 AM – 12:00 MN",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 14,
+    "name": "WeThrive Coworking Space",
+    "location": "Building 6, Solenad 1, Lakeside Evozone, Nuvali Business District, City of Santa Rosa, Laguna, Philippines",
+    "city": "Santa Rosa Laguna",
+    "price": 350,
+    "number": "09186667788",
+    "email": "inklingcoworking@gmail.com",
+    "main_image": "https://s3-media0.fl.yelpcdn.com/bphoto/JlGm3AAVXsoKViXzDTshew/o.jpg",
+    "images": [
+      "https://s3-media0.fl.yelpcdn.com/bphoto/JlGm3AAVXsoKViXzDTshew/o.jpg",
+      "https://s3-media0.fl.yelpcdn.com/bphoto/7KtdmUM8LL0uvvw2z4QL9Q/o.jpg"
+    ],
+    "description": "WeThrive Coworking Space hubs offer homey, productivity-focused workspaces convenient for Laguna-based remote workers and students.",
+    "amenities": [
+      "Wi-Fi",
+      "Hot Desks",
+      "Meeting Rooms (on request)",
+      "Pantry",
+      "Community Events"
+    ],
+    "hours": "9:00 AM – 9:00 PM",
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "reservation_type": "By Time Slots"
+  },
+  {
+    "id": 15,
+    "name": "Zone Offices - Arthaland Century Pacific Tower",
+    "location": "29th and 30th Floors, Arthaland Century Pacific Tower, 5th Avenue Corner 30th Street, Bonifacio Global City, Taguig City, Metro Manila, Philippines",
+    "city": "Taguig City",
+    "price": 300,
+    "number": "09187778899",
+    "email": "zoneoffices@gmail.com",
+    "main_image": "https://media.flyspaces.com/venue-photo/venue-photo/uploads/2c1ed2f5-20be-46f3-bd01-d3f1c90c6806.jpg",
+    "images": [
+      "https://media.flyspaces.com/venue-photo/venue-photo/uploads/2c1ed2f5-20be-46f3-bd01-d3f1c90c6806.jpg",
+      "https://media.flyspaces.com/venue-photo/venue-photo/uploads/7f7f80fa-7f9d-4c6e-931d-c5fce8dcbfab.jpg",
+      "https://media.flyspaces.com/venue-photo/venue-photo/uploads/ad2a9295-86a8-4583-9a43-bdf6b709a802.jpg"
+    ],
+    "description": "Located in the heart of BGC, Zone Offices is a prestigious work location that offers a welcoming atmosphere and unparalleled views of Manila. Whether you're a freelancer, entrepreneur, or part of a larger business, Zone Offices is a place where you can be your most productive self..",
+    "amenities": [
+      "Wi-Fi",
+      "Quiet Study Areas",
+      "Night Owl Sessions (by booking)",
+      "Pantry",
+      "Printing"
+    ],
+    "hours": "Open 24/7",
+    "time_slots": ["Full Day Pass", "Night Owl Session (10pm - 6am)"],
+    "reservation_type": "By Passes"
+  }
+]

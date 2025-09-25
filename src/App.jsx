@@ -1,34 +1,31 @@
+import { Routes, Route, Navigate } from "react-router";
+import HomePage from "./pages/Homepage";
+import Dashboard from "./pages/Dashboard";
+import VenueInfoPage from "./pages/VenueInfoPage";
+import Navbar from "./components/Navbar";
+import { useUser } from "./contexts/UserContext";
+import ConfirmationModal from "./components/ConfirmationModal";
+import { useModal } from "./contexts/ModalContext";
+import CatchLogin from "./components/CatchLogIn";
+import LoginModal from "./components/LoginModal";
+
 export default function App() {
+  const { isLoggedIn } = useUser();
+  const { isLogInActive } = useModal();
+
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        fontFamily: "sans-serif",
-        background: "#f9fafb",
-        color: "#111",
-        textAlign: "center",
-        padding: "2rem",
-      }}
-    >
-      <h1
-        style={{
-          fontSize: "2.5rem",
-          marginBottom: "0.5rem",
-          fontWeight: 600,
-        }}
-      >
-        Welcome to{" "}
-        <span style={{ color: "#2563eb" }}>midterm-project</span> 🚀
-      </h1>
-      <p style={{ fontSize: "1.1rem", color: "#555", marginBottom: "2rem" }}>
-        Your project is ready. Start building amazing things!
-      </p>
-      
-      
-    </div>
+    <>
+      {isLogInActive && <LoginModal />}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/dashboard/my-reservations"
+          element={isLoggedIn ? <Dashboard /> : <CatchLogin to="/" />}
+        />
+        <Route path="/space/:id" element={<VenueInfoPage />} />
+        <Route path="/space" element={<Navigate to="/" />} />
+      </Routes>
+    </>
   );
 }
