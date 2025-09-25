@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
 @plugin "daisyui" {
@@ -53,7 +53,8 @@
   font-style: normal;
 }
 
-h2, .pt-serif-bold {
+h2,
+.pt-serif-bold {
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: normal;
@@ -71,14 +72,18 @@ h2, .pt-serif-bold {
   font-style: italic;
 }
 
-
-h1, .bebas-neue-regular {
+h1,
+.bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-p, label, span, li, .montserrat {
+p,
+label,
+span,
+li,
+.montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -96,13 +101,17 @@ p, label, span, li, .montserrat {
   font-style: normal;
 }
 
-h5, h6, .lato-regular {
+h5,
+h6,
+.lato-regular {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-h3, h4, .lato-bold {
+h3,
+h4,
+.lato-bold {
   font-family: "Lato", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -114,3 +123,6 @@ h3, h4, .lato-bold {
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}

@@ -1,25 +1,30 @@
-import { Routes, Route, Link } from "react-router";
+import { Routes, Route, Navigate } from "react-router";
 import HomePage from "./pages/Homepage";
 import Dashboard from "./pages/Dashboard";
 import VenueInfoPage from "./pages/VenueInfoPage";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
+import { useUser } from "./contexts/UserContext";
+import ConfirmationModal from "./components/ConfirmationModal";
+import { useModal } from "./contexts/ModalContext";
+import CatchLogin from "./components/CatchLogIn";
+import LoginModal from "./components/LoginModal";
 
 export default function App() {
+  const { isLoggedIn } = useUser();
+  const { isLogInActive } = useModal();
+
   return (
     <>
-      <div className="">
-        <nav>
-          <Link to="/">Home</Link> | {"  "}
-          <Link to="/dashboard/my-reservations">Dashboard</Link> | {"  "}
-          <Link to="/venue-info">Venue Info</Link> | {"  "}
-        </nav>
-      </div>
-
+      {isLogInActive && <LoginModal />}
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/dashboard/my-reservations" element={<Dashboard />} />
-        <Route path="/venue-info" element={<VenueInfoPage />} />
+        <Route
+          path="/dashboard/my-reservations"
+          element={isLoggedIn ? <Dashboard /> : <CatchLogin to="/" />}
+        />
+        <Route path="/space/:id" element={<VenueInfoPage />} />
+        <Route path="/space" element={<Navigate to="/" />} />
       </Routes>
     </>
   );

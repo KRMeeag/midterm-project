@@ -1,11 +1,48 @@
+import { useEffect } from "react";
+import { useSpaceDetails } from "../contexts/SpaceDetailsContext";
+
 const Search = () => {
+  const { cityList, setFilter, filter } = useSpaceDetails();
+
+  // Based on key, update the search filters
+  function updateFilter(key) {
+    return function (event) {
+      if (key === "minPrice" || key === "maxPrice") {
+        const val = event.target.value;
+        if (val < 0) return;
+        setFilter((prev) => ({
+          ...prev,
+          [key]: val === "" ? null : Number(val),
+        }));
+      } else {
+        setFilter((prev) => ({ ...prev, [key]: event.target.value }));
+      }
+    };
+  }
+
+  // clears filter once satisfied
+  function clearFilter() {
+    setFilter({
+      search: "",
+      location: "",
+      resType: "",
+      minPrice: null,
+      maxPrice: null,
+    });
+  }
+
+  // Ensures that the user does not see filtered results when user forgets to reset before moving to another page
+  useEffect(() => {
+    clearFilter();
+  }, []);
+
   return (
     <div className=" mx-20 py-10 flex justify-center ">
       <fieldset className="fieldset flex flex-col md:flex-row w-full shadow-lg justify-evenly bg-base-200 border-base-300 rounded-4xl border p-4">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-7 [&>*]:flex-1 w-full flex-col lg:flex-row">
           <div className="m-2">
             <label className="label">
-              Search Place{" "}
+              Search Place
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -23,11 +60,13 @@ const Search = () => {
               type="text"
               className="input w-full"
               placeholder="Search Place"
+              value={filter?.search ?? ""}
+              onChange={updateFilter("search")}
             />
           </div>
           <div className="m-2">
             <label className="label">
-              Location{" "}
+              Location
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -41,15 +80,19 @@ const Search = () => {
                 />
               </svg>
             </label>
-            <select defaultValue="Pick a location" className="select w-full">
-              <option disabled={true}>Pick a location</option>
-              <option>BGC</option>
-              <option>Makati</option>
-              <option>Rockwell</option>
+            <select
+              className="select w-full"
+              value={filter?.city ?? ""}
+              onChange={updateFilter("city")}
+            >
+              <option disabled={true} value={""}>Pick a city</option>
+              {cityList.map((city, index) => (
+                <option key={index} value={city}>{city}</option>
+              ))}
             </select>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-7 w-full flex-col lg:flex-row">
           <div className="m-2">
             <label className="label">
               Type of Reservation{" "}
@@ -67,12 +110,13 @@ const Search = () => {
               </svg>
             </label>
             <select
-              defaultValue="Pick Reservation Type"
               className="select w-full"
+              value={filter?.resType ?? ""}
+              onChange={updateFilter("resType")}
             >
-              <option disabled={true}>Pick Reservation Type</option>
-              <option>By Time Slots</option>
-              <option>By Passes</option>
+              <option disabled={true} value={""}>Pick Reservation Type</option>
+              <option value={"By Time Slots"}>By Time Slots</option>
+              <option value={"By Passes"}>By Passes</option>
             </select>
           </div>
           <div className="flex flex-col m-2">
@@ -95,19 +139,25 @@ const Search = () => {
             <div className="join w-full">
               <input
                 type="number"
-                className="input join-item w-full"
+                className="input join-item w-full validator"
                 placeholder="Minimum"
+                min="0"
+                value={filter?.minPrice ?? ""}
+                onChange={updateFilter("minPrice")}
               />
               <input
                 type="number"
-                className="input join-item w-full"
+                min="0"
+                className="input join-item w-full validator"
                 placeholder="Maximum"
+                value={filter?.maxPrice ?? ""}
+                onChange={updateFilter("maxPrice")}
               />
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center m-5 lg:my-0">
-          <button className="btn btn-circle">
+        <div className="flex flex-1 justify-center items-center m-5 lg:my-0">
+          <button className="btn btn-circle" onClick={clearFilter}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
