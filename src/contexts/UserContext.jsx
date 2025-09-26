@@ -62,7 +62,7 @@ export function UserProvider({ children }) {
 
   useLocalStorage("loggedIn", isLoggedIn);
 
-  // Logs the user in
+  // Checks credentials before logging the user in
   function authLog(details) {
     if (details.email !== mockAuthDetails.email) {
       return 1;

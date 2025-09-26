@@ -13,6 +13,7 @@ const LoginModal = () => {
   const [showErrors, setShowErrors] = useState(false);
   const [errorVal, setErrorVal] = useState("");
 
+  // Checks if inputs are valid
   useEffect(() => {
     if (
       fieldDetails.email !== "" &&
@@ -24,7 +25,7 @@ const LoginModal = () => {
     }
   }, [fieldDetails]);
 
-  // Logs the user in via the User Context and Disables Modal
+  // Logs in the user and checks via the User Context and Disables Modal
   const logIn = () => {
     if (!validSubmit) {
       setShowErrors(true);
@@ -51,6 +52,7 @@ const LoginModal = () => {
     setIsLogInActive(false);
   };
 
+  // Stores Input Value
   function receiveInput(key) {
     return function (event) {
       setShowErrors(false);
