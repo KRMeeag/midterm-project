@@ -1,14 +1,62 @@
+import { useEffect, useState } from "react";
 import { useModal } from "../contexts/ModalContext";
 import { useUser } from "../contexts/UserContext";
 
 const LoginModal = () => {
   const { isLogInActive, setIsLogInActive } = useModal();
   const { authLog } = useUser();
+  const [fieldDetails, setFieldDetails] = useState({
+    email: "",
+    password: "",
+  });
+  const [validSubmit, setValidSubmit] = useState(false);
+  const [showErrors, setShowErrors] = useState(false);
+  const [errorVal, setErrorVal] = useState("");
+
+  useEffect(() => {
+    if (
+      fieldDetails.email !== "" &&
+      fieldDetails.password !== "" 
+    ) {
+      setValidSubmit(true);
+    } else {
+      setValidSubmit(false);
+    }
+  }, [fieldDetails]);
 
   // Logs the user in via the User Context and Disables Modal
   const logIn = () => {
-    authLog();
+    if (!validSubmit) {
+      setShowErrors(true);
+      return;
+    }
+
+    const authReturnVal = authLog(fieldDetails);
+
+    if (authReturnVal === 1) {
+      setErrorVal("Account not Found");
+      setShowErrors(true);
+      return;
+    }
+
+    if (authReturnVal === 2) {
+      setErrorVal("Incorrect Password");
+      setShowErrors(true);
+      return;
+    }
+
+    setShowErrors(false);
+    setErrorVal("");
+    setValidSubmit(false);
     setIsLogInActive(false);
+  };
+
+  function receiveInput(key) {
+    return function (event) {
+      setShowErrors(false);
+      setErrorVal("");
+      setFieldDetails((prev) => ({ ...prev, [key]: event.target.value }));
+    };
   }
 
   return (
@@ -28,25 +76,76 @@ const LoginModal = () => {
           </button>
         </form>
         <div className="flex flex-col items-center text-center">
-          <div className="w-100 items-center">
-            <h3 className="font-bold text-3xl">Log-In</h3>
-          </div>
+          <div className="w-100 items-center"></div>
           <div className="flex flex-col h-full justify-between m-10 p-8 rounded-4xl bg-linear-to-r from-sky-500 to-sky-700 shadow-xl/30">
-            <div>
-              <div className="avatar">
-                <div className="w-30 rounded-full ring-8 ring-stone-100">
-                  <img src="https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg" />
-                </div>
-              </div>
-              <h1 className="m-5 text-2xl text-stone-100">User #1</h1>
-            </div>
-            <div className="flex h-full justify-end">
-              <button className="btn" onClick={logIn}>
-                <span>Continue as User #1</span>
+            <fieldset className="fieldset rounded-box w-xs p-4">
+              <h3 className="font-bold text-3xl text-stone-200">Log-In</h3>
+
+              <label className="label font-bold text-stone-200">Email</label>
+              <input
+                type="email"
+                className="input validator"
+                pattern="^[^@]+@[^@]+\.[^@]{2,}$"
+                placeholder="Email"
+                value={fieldDetails.email}
+                onChange={receiveInput("email")}
+                required
+              />
+
+              <label className="label font-bold text-stone-200 mt-3">
+                Password
+              </label>
+              <input
+                type="password"
+                className="input validator"
+                placeholder="Password"
+                value={fieldDetails.password}
+                onChange={receiveInput("password")}
+                required
+              />
+
+              <button className="btn bg-stone-200 hover:bg-stone-300 mt-4" onClick={logIn}>
+                Log-in Account
               </button>
-            </div>
+            </fieldset>
           </div>
         </div>
+        {showErrors && !validSubmit ? (
+          <div role="alert" className="alert alert-warning">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 shrink-0 stroke-current"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+              />
+            </svg>
+            <span>Warning: Make sure to type both your email and password!</span>
+          </div>
+        ) : null}
+        {showErrors && errorVal !== "" ? (
+          <div role="alert" className="alert alert-error">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 shrink-0 stroke-current"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <span>{`Error! ${errorVal}`}</span>
+          </div>
+        ) : null}
       </div>
     </dialog>
   );

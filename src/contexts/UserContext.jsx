@@ -19,6 +19,10 @@ export function UserProvider({ children }) {
   const [newReserveCtr, setNewReserveCtr] = useState(
     JSON.parse(localStorage.getItem("newReserveCtr") || "0")
   );
+  const mockAuthDetails = {
+    email: "user1@gmail.com",
+    password: "safepassword123"
+  }
 
   // For every change incurred by both addReservation and removeReservation
 
@@ -59,8 +63,17 @@ export function UserProvider({ children }) {
   useLocalStorage("loggedIn", isLoggedIn);
 
   // Logs the user in
-  function authLog() {
+  function authLog(details) {
+    if (details.email !== mockAuthDetails.email) {
+      return 1;
+    } 
+
+    if (details.password !== mockAuthDetails.password) {
+      return 2;
+    }
+    
     setIsLoggedIn(true);
+    return 0;
   }
 
   //  Logs the user out
